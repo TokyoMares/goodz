@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Online Bulk Food Delivery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    
+ 
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 dark:text-white">
+<header class="bg-white dark:bg-gray-800 shadow-md">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+        <div class="text-sm text-gray-600 dark:text-gray-300">
+            Current Location: 20-4-343/1, Himmatpura, Khilwat, Hyderabad, Telangana 500002, India
+        </div>
+        <div class="relative">
+            <input class="border rounded-full py-1 px-4 pl-8 w-64 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Search Restaurants..." type="text"/>
+            <i class="fas fa-search absolute left-2 top-2 text-gray-400 dark:text-gray-300"></i>
+        </div>
+        <div class="flex space-x-4">
+            <a class="text-gray-600 dark:text-gray-300" href="#">Home</a>
+            <a class="text-gray-600 dark:text-gray-300" href="#">Login</a>
+            <a class="text-gray-600 dark:text-gray-300" href="#">SignUp</a>
+            <!-- <button onclick="toggleDarkMode()" class="text-gray-600 dark:text-gray-300"> -->
+                
+                <!-- <i id="dark-mode-icon" class="fas fa-moon"></i>
+            </button> -->
+
+            <button id="darkModeToggle">Dark Mode</button>
+        </div>
+    </div>
+</header>
+<main class="container mx-auto px-4 py-6">
+    <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 text-center">
+        <h1 class="text-2xl font-bold">Online Bulk Food Delivery</h1>
+        <p class="text-gray-600 dark:text-gray-300">Order Bulk Food Hassle Free From Your Mobile</p>
+        <p class="text-orange-500 font-semibold">Hand Delivery & Return | Free Delivery in 5 Kms</p>
+        <img alt="Delivery truck illustration" class="mx-auto mt-4" height="50" src="https://storage.googleapis.com/a1aa/image/S2h7LoLwosbEOdMWhyv2GzTAc2gNPZrBm62980uys6h82ieJA.jpg" width="100"/>
+    </div>
+    <section class="mt-8">
+        <h2 class="text-xl font-bold mb-4">Explore Bulk Food In</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="relative">
+                <img alt="Restaurants" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/KVaB7gftZ4XrWCoZAAkohPeeIyO1kIBHrkCvMqNe4X0RvtoPB.jpg" width="400"/>
+                <div class="absolute bottom-2 left-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded">Restaurants</div>
+            </div>
+            <div class="relative">
+                <img alt="Caterers" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/4YFS3XLyRVKvO1xbbucQgNfMO5TJWjDB4eJYKtM70aExbL6TA.jpg" width="400"/>
+                <div class="absolute bottom-2 left-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded">Caterers</div>
+            </div>
+            <div class="relative">
+                <img alt="Mithai & Sweets" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/5n4qePqegmjwN06tsMhoBCYvzfaXGgS9enoK9cTUJ3nNvtoPB.jpg" width="400"/>
+                <div class="absolute bottom-2 left-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded">Mithai & Sweets</div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-8">
+        <h2 class="text-xl font-bold mb-4">Schedule</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">Merchants Accepting La - Large Orders!</p>
+        <div class="flex space-x-4 mb-4">
+            <button class="bg-white dark:bg-gray-700 border rounded-full px-4 py-2">Today</button>
+            <button class="bg-white dark:bg-gray-700 border rounded-full px-4 py-2">Tomorrow</button>
+            <button class="bg-white dark:bg-gray-700 border rounded-full px-4 py-2">Pick Date</button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">Santosh Dhaba Exclusive</h3>
+                <p class="text-gray-600 dark:text-gray-300">Abids | 4.9km | <span class="text-green-500">4.8</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 11:30 AM - 2:00 AM</p>
+                <p class="text-gray-600 dark:text-gray-300">30 people (45 MINS)</p>
+                <p class="text-orange-500 font-semibold">FLAT 10% OFF + FREE DELIVERY UPTO 5KM*</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">New Grand Restaurant & Bakery</h3>
+                <p class="text-gray-600 dark:text-gray-300">Attapur | 3.3km | <span class="text-green-500">NEW</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 10:00 AM - 11:00 PM</p>
+                <p class="text-gray-600 dark:text-gray-300">30 people (4 Hour)</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">Khader Khan Caterer</h3>
+                <p class="text-gray-600 dark:text-gray-300">Miranlalamk | 1.37km | <span class="text-green-500">4.1</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 12:30 PM - 11:30 PM</p>
+                <p class="text-gray-600 dark:text-gray-300">100 people (18 HOURS)</p>
+                <p class="text-orange-500 font-semibold">FREE DELIVERY UPTO 5KM</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">Alhumdulillah Hotel</h3>
+                <p class="text-gray-600 dark:text-gray-300">Chandrayangutta | 4.8km | <span class="text-green-500">4.8</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 1:00 PM - 11:00 PM</p>
+                <p class="text-gray-600 dark:text-gray-300">30 people (3 HOURS)</p>
+                <p class="text-orange-500 font-semibold">FREE DELIVERY UPTO 5KM</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">Shadaan Restaurant</h3>
+                <p class="text-gray-600 dark:text-gray-300">Chandrayangutta | 4.6km | <span class="text-green-500">4.7</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 9:00 AM - 1:30 PM</p>
+                <p class="text-gray-600 dark:text-gray-300">30 people (3 HOURS)</p>
+                <p class="text-orange-500 font-semibold">FREE DELIVERY UPTO 5KM</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-bold">Hotel Sohail</h3>
+                <p class="text-gray-600 dark:text-gray-300">Malakpet | 7.4km | <span class="text-green-500">4.5</span></p>
+                <p class="text-gray-600 dark:text-gray-300">Open: 1:00 PM - 11:00 PM</p>
+                <p class="text-gray-600 dark:text-gray-300">30 people (3 HOURS)</p>
+                <p class="text-orange-500 font-semibold">FREE HAND DELIVERY & RETURN UPTO 5KM</p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="bg-gray-800 text-white text-center py-4">
+    <p>Get Exciting offer Updates!</p>
+    <button class="bg-orange-500 text-white px-4 py-2 rounded-full mt-2">Do it!</button>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
